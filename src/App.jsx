@@ -1292,7 +1292,7 @@ rounded-[32px] px-6 py-10 w-full max-w-[1296px] mx-auto">
        value={values.FullName}
        onChange={handleChange}
        onBlur={handleBlur}
-        className="w-full px-4 py-3 rounded-xl border
+        className="w-full px-4 py-3 rounded-xl border border-gray-300 
         " />
         {touched.FullName && errors.FullName && 
         <p className = "text-red-500 text-sm">{errors.FullName}</p>} 
@@ -1376,7 +1376,7 @@ rounded-[32px] px-6 py-10 w-full max-w-[1296px] mx-auto">
       value={values.PhoneNumber}
         onChange={handleChange}
         onBlur={handleBlur} 
-        className="w-full px-4 py-3 rounded-xl border 
+        className="w-full px-4 py-3 rounded-xl border border-gray-300 
         " />
 
          {touched.PhoneNumber && errors.PhoneNumber && 
